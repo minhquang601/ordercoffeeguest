@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/emty"
+        android:textColor="#f000"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Name : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/emty"
+        android:id="@+id/txtNameDetailHistory"
+        android:textColor="#f000"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/emty"
+        android:id="@+id/emty1"
+        android:textColor="#f000"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Price : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/txtNameDetailHistory"
+        android:layout_toRightOf="@+id/emty1"
+        android:id="@+id/txtPriceDetailHistory"
+        android:textColor="#f000"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/emty1"
+        android:id="@+id/emty2"
+        android:textColor="#f000"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Amount : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/txtPriceDetailHistory"
+        android:layout_toRightOf="@+id/emty2"
+        android:id="@+id/txtAmountDetailHistory"
+        android:textColor="#f000"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

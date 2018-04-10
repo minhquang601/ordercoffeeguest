@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">ProjectAppCoffee</string>
+
+    //Firebase table
+
+    <string name="db_table">Table</string>
+    <string name="db_drink">Drinks</string>
+    <string name="db_food">Foods</string>
+
+    //Firebase field
+
+    <string name="field_name">name</string>
+    <string name="field_description">description</string>
+    <string name="field_price">price</string>
+    <string name="field_type">type</string>
+    <string name="field_status">status</string>
+    <string name="field_imgUrl">imgUrl</string>
+
+    <string name="field_true">true</string>
+    <string name="field_false">false</string>
+    <string name="field_coffee">Coffee</string>
+    <string name="field_chocola">Chocola</string>
+    <string name="field_latte">Latte</string>
+    <string name="field_smoothie">Smoothie</string>
+    <string name="field_tea">Tea</string>
+    <string name="field_food">Foods</string>
+    <string name="field_hamburger">Hamburger</string>
+    <string name="field_salad">Salad</string>
+    <string name="field_sandwich">Sandwich</string>
+    <string name="field_chip">Chips</string>
+    <string name="field_kid">Kids</string>
+
+
+    <string name="unit_cart">$</string>
+    <string name="menu_drinks">Menu</string>
+    <string name="table_number">Number</string>
+    <string name="tab_drinks">Drinks</string>
+    <string name="tab_food">Foods</string>
+    <string name="tab_history">History</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_toobar_Order">List Order</string>
+    <string name="id_Order">ID</string>
+    <string name="name_Order">Name</string>
+    <string name="price_Order">Price</string>
+    <string name="amount_Order">Amount</string>
+    <string name="edit_Order">Edit</string>
+    <string name="remove_Order">Remove</string>
+    <string name="total_Order">Total : </string>
+    <string name="order_Order">Order</string>
+    <string name="order_menu">Order</string>
+    <string name="detail_menu">Detail</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="toolbar_detail">Detail</string>
+    <string name="description_details">Description : </string>
+    <string name="price_detail">Price : </string>
+    <string name="cancel">Cancel</string>
+    <string name="user">User</string>
+    <string name="about">About</string>
+    <string name="promotion">Promotion</string>
+    <string name="googlemap_API_key">AIzaSyCC8L458jcE9J-qfDSn7IMGn6uq0kqAw4c</string>
+
+    <string name="login_auth">Login</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Enter your phone number</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="nameStore">Name :</string>
+    <string name="project_app_coffee">Project App Coffee</string>
+    <string name="address">Address : </string>
+    <string name="address_description">62 Nguyễn Huy Tự, Quận 1, Thành Phố Hồ Chí Minh, Việt Nam</string>
+    <string name="hotline">Hotline : </string>
+    <string name="pay_order">Pay</string>
+
+</resources>

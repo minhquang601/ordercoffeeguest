@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        icon="@drawable/coffee"
+        id="@+id/tab_drinks"
+        title="@string/tab_drinks"
+        inActiveColor="#ffffff"
+        activeColor="#93e1b3"
+        barColorWhenSelected="#767e63"
+        />
+    <tab
+        icon="@drawable/food"
+        id="@+id/tab_food"
+        title="@string/tab_food"
+        inActiveColor="#ffffff"
+        activeColor="#e2cc28"
+        barColorWhenSelected="#408f88"
+        />
+    <tab
+        icon="@drawable/history"
+        id="@+id/tab_history"
+        title="@string/tab_history"
+        inActiveColor="#ffffff"
+        activeColor="#3dccb4"
+        barColorWhenSelected="#96674d"
+        />
+
+
+</tabs>
+    <!--
+    inActiveColor mau khi khong chon
+    ActiveColor mau khi  chon
+    barColorWhenSelected mau toolbar khi chon
+
+    -->

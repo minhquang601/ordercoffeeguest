@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#e7e5d3"
+   >
+
+    <EditText
+        android:maxLength="2"
+        android:id="@+id/edt_Amount_Order"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:hint="Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@+id/edt_Amount_Order"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="#dd8b485f"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="Cancel"
+            android:id="@+id/btn_Cancel_Order"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="#fff"
+            android:background="#06a398"
+            android:textAllCaps="false"
+            android:text="Order"
+            android:id="@+id/btn_Order_Order"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

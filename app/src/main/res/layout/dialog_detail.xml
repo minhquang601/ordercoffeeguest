@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#5ddcc0c0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_Detail"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foods_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/name_Detail"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#f000"
+            android:layout_below="@+id/img_Detail"
+            android:textSize="20sp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/name_Detail"
+            android:id="@+id/emty"
+            android:text="@string/description_details"
+            android:textColor="#f000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#047c64"
+            android:id="@+id/des_Detail"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@id/emty"
+            android:layout_below="@+id/name_Detail"
+            android:textSize="18sp"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/emty2"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/des_Detail"
+            android:layout_below="@id/des_Detail"
+            android:text="@string/price_detail"
+            android:textColor="#f000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/price_Detail"
+            android:textStyle="bold"
+            android:textColor="#f000"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/des_Detail"
+            android:layout_toRightOf="@+id/emty"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/price_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="#fff"
+                android:background="#e1964f"
+                android:textStyle="bold"
+                android:id="@+id/btn_Cancel_Detail"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:text="@string/cancel"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

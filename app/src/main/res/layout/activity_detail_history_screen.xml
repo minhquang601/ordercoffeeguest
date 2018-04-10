@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.quang.projectappcoffee.ui.DetailHistoryScreenActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_detailHis"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0699a6"
+        android:theme="@style/Theme.Design.NoActionBar"
+        app:title="Detail History" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#f000"
+            android:id="@+id/emty"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:text="Date : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDateDetail"
+            android:textColor="#f000"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/emty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/emty1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#f000"
+            android:layout_below="@+id/emty"
+            android:textSize="20sp"
+            android:text="Table : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/txtTableDetail"
+            android:textColor="#f000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/emty1"
+            android:layout_below="@+id/txtDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/emty2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#f000"
+            android:layout_below="@+id/emty1"
+            android:textSize="20sp"
+            android:text="Total : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/txtTotalDetail"
+            android:textColor="#f000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/emty2"
+            android:layout_below="@+id/txtTableDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:layout_marginTop="17dp"
+            android:id="@+id/listDetailHis"
+            android:layout_below="@+id/emty2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

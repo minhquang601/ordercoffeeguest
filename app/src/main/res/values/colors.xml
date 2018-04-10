@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_Table_No_People">#80417ad6</color>
+    <color name="color_Table_People">#74e19e91</color>
+
+    <color name="colorStatusBarDrinks">#626851</color>
+    <color name="colorStatusBarFoods">#148379</color>
+    <color name="colorStatusBarOrder">#148355</color>
+    <color name="colorStatusBarDetail">#0d6d78</color>
+    <color name="colorStatusBarInfo">#33891e</color>
+    <color name="colorStatusBarHistory">#0699a6</color>
+    <color name="colorTitle">#ffffff</color>
+
+
+</resources>
